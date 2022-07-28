@@ -1,0 +1,176 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+    margin: 0;
+
+    background-color: #17182D;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    text-align: center;
+}
+
+.navigation{
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    text-align: center;
+}
+
+.navigation li{
+    display:inline;
+}
+
+.navigation a{
+    display:inline-block;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-decoration: none;
+    color:#fff;
+    margin-top: 50px;
+}
+
+sup {
+    background-color: transparent;
+}
+
+strong {
+    background-color: transparent;
+}
+
+a {
+    color:#fff;
+    background-color: transparent;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75%;
+
+    margin: 25px auto;
+
+    height: 50%;
+    
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+
+    height: 100%;
+    z-index: 3;
+    background-color: transparent;
+}
+
+.column img {
+    height: 100%;
+    
+}
+
+.left-column {
+    height: 100%;
+
+    margin-left: auto;
+
+    text-align: right;
+    background-color: transparent;
+}
+
+.row-title-left {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    text-align: right;
+    background-color: transparent;
+}
+
+.row-body-left {
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    background-color: transparent;
+}
+
+.row-body-left-sub {
+    color: white;
+    padding: 0px 5px 0px 5px;
+    font-weight: lighter;
+    text-align: right;
+    background-color: transparent;
+    font-size: 1.2em;
+}
+
+.right-column {
+    height: 100%;
+
+    margin-right: auto;
+
+    background-color: transparent;
+}
+
+.row-title-right {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    text-align: left;
+    background-color: transparent;
+}
+
+.row-body-right {
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    background-color: transparent;
+}
+
+.wave {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.list {
+    list-style: none;
+    font-size: larger;
+}
+
+.list li {
+    padding-left: 35px;
+    padding-right: 35px;
+    text-decoration: none;
+    color:#fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+#main-column {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    
+    color: white;
+}
+
+#page-title {
+    font-size: 2.5em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
